@@ -105,6 +105,13 @@ The name of the file that will be saved when selecting either CSV or Text as the
 .Notes
 Author: James Wilson
 Last Edit: 2021-12-15
+Version 1.0
+    
+--- Example 1 ---
+    
+PS C:\>.\ Get-Process -Name *shell | Get-PipeResults
+    
+Get-Process cmdlet has its results via name "shell" output to get-piperesults which is then output to host.
 
 #>
     param (
